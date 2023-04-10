@@ -1,14 +1,18 @@
 <template>
-  <HelloWorld/>
+  <el-container>
+    <MyHeader></MyHeader>
+    <MyBody></MyBody>
+  </el-container>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyHeader from './components/MyHeader.vue'
+import MyBody from './components/MyBody.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyHeader,
+    MyBody
   }
 }
 </script>
@@ -20,6 +24,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+}
+</style>
+
+<style scoped>
+.el-container ::v-deep {
+  flex-direction: column;
+  margin: 0;
 }
 </style>
