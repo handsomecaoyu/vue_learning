@@ -21,5 +21,6 @@
     border: 0px;
     border-radius: 15px;
     background-color: white;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.15) !important;
   }
 </style>

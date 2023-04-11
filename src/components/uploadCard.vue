@@ -24,15 +24,20 @@
 
 
 <style scoped> 
-.upload-card ::v-deep{
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-    height: 400px;
-    width: 100%;
-    border: 0px;
-    border-radius: 15px;
-    background-color: white;
+.upload-card ::v-deep {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  height: 400px;
+  width: 100%;
+  border: 0px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.15) !important;
+}
+.upload-card ::v-deep .el-card__body{
+    height: 100%;
+    padding: 0px;
 }
 
 .upload-demo ::v-deep{
@@ -54,13 +59,14 @@
     margin-top: 30%
 }
 
-.upload-card ::v-deep .el-card__body{
-    height: 100%;
-    padding: 0px;
-}
 
 </style>
 
+<style>
+.card-header{
+  font-size: 20px;
+}
+</style>
 
 <script>
 export default {

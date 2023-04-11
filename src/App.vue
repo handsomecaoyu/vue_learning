@@ -1,18 +1,18 @@
 <template>
   <el-container>
-    <MyHeader></MyHeader>
-    <MyBody></MyBody>
+    <myHeader></myHeader>
+    <classificationBody></classificationBody>
   </el-container>
 </template>
 <script>
-import MyHeader from './components/MyHeader.vue'
-import MyBody from './components/MyBody.vue'
+import myHeader from './components/myHeader.vue'
+import classificationBody from './components/classificationBody.vue'
 
 export default {
   name: 'App',
   components: {
-    MyHeader,
-    MyBody
+    classificationBody,
+    myHeader
   }
 }
 </script>

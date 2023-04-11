@@ -1,24 +1,5 @@
-# element-plus
+# README
 
-## Project setup
-```
-npm install
-```
+这是前端项目，使用VUE+ElementUI简单地实现了音频上传和结果展示的功能。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+之前没有接触过前端，自学了一天的VUE加上疯狂向chatgpt和new bing提问搞出来的，比较简陋，文件也比较混乱。
